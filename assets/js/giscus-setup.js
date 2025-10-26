@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "MaxSC4/maximesc.github.io",
+    "data-repo": "MaxSC4/maxsc4.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
