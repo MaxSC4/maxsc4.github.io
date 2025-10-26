@@ -92,6 +92,11 @@ ninja.data = [{
           description: "Interactive visualization of rocks and thin sections in 2D and 3D.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/digirocks/";
+            },},{id: "projects-georad3d",
+          title: 'GeoRad3D',
+          description: "3D modeling and visualization of in-situ radiometric measurements (X, Y, Z, counts per minute) with volumetric interpolation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/georad3d/";
             },},{
         id: 'social-email',
         title: 'email',
