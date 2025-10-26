@@ -1,97 +1,152 @@
+# -----------------------------------------------------------------------------
+# CV content (YAML validated)
+# -----------------------------------------------------------------------------
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: "Maxime SOARES CORREIA"
+    - name: Affiliation
+      value: "Master Geology · Student — Institut de Physique du Globe de Paris (IPGP)"
+    - name: Email
+      value: "soarescorreia@ipgp.fr"
+    - name: GitHub
+      value: "<a href='https://github.com/MaxSC4'>MaxSC4</a>"
+    - name: LinkedIn
+      value: "<a href='https://www.linkedin.com/in/maxime-sc'>maxime-sc</a>"
+
+- title: Skills
+  type: list
+  contents:
+    - "<b>Geology</b> Petrography, Magmatism, Metamorphism, Geochemistry, Sedimentology, Tectonic, Geophysics, Geodynamics, Modeling"
+    - "<b>Planetology</b> Comparative planetology, cosmochemistry, geomorphology, impact craters, meteorites"
+    - "<b>Programming</b> Python, SageMaths, JavaScript, OCaml, C#, React.JS, MongoDB"
+    - "<b>A.I</b> Convolutional Neural Network, Deep Learning"
+    - "<b>Management</b> President of a student association, Project Management and Funding, Team Management"
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: "MASTER GEOLOGY"
+      institution: "Institut de Physique du Globe de Paris (IPGP) — Paris"
+      year: "Sep. 2025 - PRESENT"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "1st year"
+        - "Six-day field trip focused on volcanic, tectonic, and geophysical studies in the Limagne Rift and Chaîne des Puys region."
+        - "Five-day field trip focused on the volcanic history of the Puy de Sancy, Mont-Dore Massif, and the Cantal stratovolcano."
+    - title: "EARTH & UNIVERSE SCIENCES BACHELOR"
+      institution: "Université Paris-Saclay — Bures-sur-Yvette"
+      year: "Sep. 2022 - May 2025"
       description:
-        - Description 1.
-        - Description 2.
+        - "<b>Bachelor 3rd year:</b> Earth & Universe Sciences — Options: Python Modeling (Major, 19/20)"
+        - "President of AGUPS (Association des Géologues de l’Université Paris-Saclay)"
+        - "VigieCiel Instructor with the Muséum National d’Histoire Naturelle"
+        - "VigieCratère: Validating impact structures on Earth for a collaborative science program"
+        - "Field courses in Cantal (Magmatism), Morvan (Geophysics, Hydrogeology), Cotentin (Magmatism, Metamorphism) and Alps (Tectonics, Geomorphology) (Average of 16.77/20, Major)"
+        - "Sedimentary petrography assisted by A.I as a semester project (TISA) (Major, 19.75/20)"
+        - "Impact craters modeling using Python and SageMaths (EasyCraterSim)"
+        - "Major in Programming (19.5/20), English (19/20), Quantitative methods in Geosciences (16.8/20)"
+        - "<b>Bachelor 2nd year:</b> Earth & Universe Sciences, comparative planetology"
+        - "Major in Elementary Geochemistry, Team Project Management"
+        - "Field course to study the geological history of the Corbières (Tectonic, Cartography)"
+        - "<b>Bachelor 1st year:</b> Geosciences & Physics Double Degree"
+        - "Field course in Normandy to study sedimentology, tectonics, geodynamics and magmatism"
+    - title: "EPITA: PREPARATORY CLASS"
+      institution: "EPITA — École Pour l’Informatique et les Technologies Avancées — Villejuif"
+      year: "Sep. 2020 - Aug. 2022"
+      description:
+        - "Whole curriculum in English"
+        - "Mathematics, physics, electronics, and engineering sciences"
+        - "Trained in OCaml, Python, JavaScript, C#, and SQL"
+        - "Developed a video game during six months as a semester project"
+    - title: "GENERAL BACCALAURÉAT IN SCIENCES"
+      institution: "Lycée Privé Catholique Jeanne d’Arc — Bayeux"
+      year: "Sep. 2019 - Jun. 2020"
+      description:
+        - "European Section"
+        - "Mathematics in English"
+        - "TOEIC 980/990, C2 level"
 
-- title: Experience
+- title: Experiences
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: "RESEARCH ASSISTANT, WITH B. SAINT-BEZAR, A. BENEDICTO AND B. BRIGAUD"
+      institution: "GEOPS - Géosciences Paris-Saclay — Orsay"
+      year: "Aug. 2025 - Sep. 2025"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Developed a 3D geostatistical model of radioactivity distribution within a rock outcrop from in-situ surface measurements (X, Y, Z, counts per minute)."
+        - "Designed a workflow to extrapolate surface radiation data in depth, generating volumetric datasets."
+        - "Implemented 3D kriging interpolation to construct continuous solid models from discrete point measurements."
+    - title: "RESEARCH ASSISTANT, WITH G. DELPECH AND J.-D. MOREAU"
+      institution: "GEOPS - Géosciences Paris-Saclay — Orsay"
+      year: "May 2025 - Jul. 2025"
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "3D modeling of various rock samples using photogrammetry."
+        - "Developed a website and a database to store 3D models."
+        - "Petrographic analysis of multiple sedimentary, volcanic and metamorphic rocks."
+    - title: "RESEARCH ASSISTANT, WITH F. SCHMIDT AND L. MARTINEZ"
+      institution: "GEOPS - Géosciences Paris-Saclay — Orsay"
+      year: "Jun. 2024 - Jul. 2024"
       description:
+        - "Worked to validate a model of crater counting on the Moon."
+        - "Adapted an existing pipeline to recognize lunar impact craters using A.I."
+        - "Faster Regional Convolutional Neural Network."
+        - "Introduction to research and lab life."
+        - "Wrote a report in English."
+    - title: "TUTOR FOR COLLEGE STUDENTS (HOMEWORK ASSISTANCE)"
+      institution: "Parkours — Versailles, Montrouge, Paris"
+      year: "Apr. 2025 - PRESENT"
+      description:
+        - "Provided academic support to students from Grade 6 (6ème) to Grade 12 (Terminale) in various subjects."
+        - "Assisted students in understanding key concepts, improving study habits, and preparing for exams."
+        - "Conducted tutoring sessions twice a week, adapting teaching methods to individual learning styles."
+        - "Encouraged students’ autonomy and confidence through structured guidance and personalized feedback."
+        - "Subjects covered: Mathematics, English, Sciences, French, History, and more."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Extracurricular Activity
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: "EasyCraterSim — Lightweight numerical simulation tool for impact craters"
+      institution: "Orsay"
+      year: "Feb. 2025 - PRESENT"
+      description:
+        - "AUTHOR AND DEVELOPER, DOI: 10.5281/ZENODO.14895828"
+        - "Developed a scientific yet user-friendly simulation program for impact crater formation."
+        - "Integrated mathematical modeling techniques to analyze impact parameters and crater morphologies."
+        - "Contributed to the open-source development and documentation of the project."
+        - "Project aiming to be integrated into a collaborative science program with the MNHN (VigieCratère)."
+    - title: "TISA — Thin-section Image Segmenter and Analyzer"
+      institution: "Orsay"
+      year: "Jan. 2025 - PRESENT"
+      description:
+        - "AUTHOR AND DEVELOPER, DOI: 10.5281/ZENODO.14996768"
+        - "Developed a pipeline to automatically quantify grains on carbonate thin-sections."
+        - "Built upon PetroSeg by F. Azzam (2024)."
+        - "Using FastSAM."
+    - title: "AGUPS — Association des Géologues de l’Université Paris-Saclay"
+      institution: "Bures-sur-Yvette"
+      year: "May 2024 - PRESENT"
+      description:
+        - "PRESIDENT"
+        - "Created and organized a facultative field course for Bachelor 2 and Bachelor 3 students in Cotentin, Normandy."
+        - "During 10 days, students discovered and studied the magmatic and metamorphic history of the Armorican Massif."
+        - "Collaboration with Muséum National d’Histoire Naturelle, GEOPS, and the Earth Sciences Graduate School."
+        - "Organized multiple events for students, from Bachelor to PhD, as well as for teachers and researchers."
+        - "Multiple interventions to college and elementary students around geology subjects."
+        - "Various activities to help students manage coursework, revision, and programming."
+        - "Developed the professional network of the association through LinkedIn and Instagram."
+    - title: "VigieCiel (Muséum National d’Histoire Naturelle)"
+      institution: "Paris"
+      year: "Sep. 2024 - PRESENT"
+      description:
+        - "INSTRUCTOR"
+        - "Created an educational kit to teach students to recognize meteorites, with a total of six samples of meteorites."
+        - "Funded by the Département des Sciences de la Terre — Université Paris-Saclay."
+    - title: "Junior Space Academy — Summer School"
+      institution: "Guyancourt, Paris, Orsay"
+      year: "Jun. 2024"
+      description:
+        - "SUMMER SCHOOL STUDENT"
+        - "One week of conferences around planetology, cosmochemistry, and space engineering."
+        - "UVSQ, IPGP, Sorbonne Jussieu, IAS, Safran, ONERA."
