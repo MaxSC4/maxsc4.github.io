@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - MaxSC4/GeoRad3D
   - MaxSC4/digirocks
   - MaxSC4/EasyCraterSim
   - MaxSC4/TISA
