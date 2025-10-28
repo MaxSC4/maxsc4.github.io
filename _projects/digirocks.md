@@ -35,8 +35,8 @@ Developed at *Université Paris-Saclay (GEOPS)*, DigiRocks is used to display, e
 
 ### 🌐 Links
 
-- 🎮 [**Live Demo**](https://maxsc4.github.io/digirocks/)  
-- 💻 [**GitHub Repository**](https://github.com/MaxSC4/digirocks)
+- 🎮 [**Live Demo**](https://maxsc4.github.io/digirocks-demo/)  
+- 💻 [**GitHub Repository**](https://github.com/MaxSC4/digirocks-demo)
 
 ---
 
